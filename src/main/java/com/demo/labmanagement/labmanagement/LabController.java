@@ -7,7 +7,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("/")
+
 public class LabController {
     private final LabRepository labRepository;
     private final CategoryRepository categoryRepository;
